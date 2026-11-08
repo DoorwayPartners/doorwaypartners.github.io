@@ -1,0 +1,105 @@
+/* Doorway Partners — shared styles */
+:root {
+  --navy: #0f2744;
+  --navy-deep: #0a1b30;
+  --blue: #2a6f97;
+  --blue-hover: #1f5676;
+  --paper: #f6f3ee;
+  --white: #ffffff;
+  --ink: #1c2430;
+  --muted: #5b6573;
+  --line: #d9d3c9;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+}
+a { color: var(--blue); }
+a:hover { color: var(--blue-hover); }
+.wrap { width: min(1040px, calc(100% - 2.5rem)); margin: 0 auto; }
+header {
+  background: var(--navy);
+  color: var(--white);
+  padding: 1.1rem 0;
+}
+header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.logo {
+  color: var(--white);
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+}
+nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+nav a {
+  color: #e8eef5;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+nav a:hover, nav a[aria-current="page"] { color: #fff; text-decoration: underline; }
+.hero {
+  background: linear-gradient(160deg, var(--navy-deep), var(--navy) 55%, #16375c);
+  color: var(--white);
+  padding: 4.5rem 0 4rem;
+}
+.hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  font-weight: 500;
+  margin: 0 0 0.75rem;
+}
+.hero p { font-size: 1.2rem; max-width: 36rem; margin: 0; color: #d7e2ee; }
+section { padding: 3.25rem 0; }
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+  color: var(--navy);
+}
+.services { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.35rem 1.25rem;
+}
+.card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; color: var(--navy); }
+.card p { margin: 0; color: var(--muted); }
+.contact-panel {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.contact-panel p { margin: 0.35rem 0; }
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--blue);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1.15rem;
+  border-radius: 8px;
+}
+.btn:hover { background: var(--blue-hover); color: #fff; }
+footer {
+  background: var(--navy-deep);
+  color: #c5d0dc;
+  padding: 1.5rem 0;
+  font-size: 0.92rem;
+}
+footer a { color: #e8eef5; }
+@media (max-width: 640px) {
+  header .wrap { flex-direction: column; align-items: flex-start; }
+  .hero { padding: 3rem 0; }
+}
