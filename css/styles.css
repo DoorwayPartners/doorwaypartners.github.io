@@ -103,3 +103,9 @@ footer a { color: #e8eef5; }
   header .wrap { flex-direction: column; align-items: flex-start; }
   .hero { padding: 3rem 0; }
 }
+.legal { max-width: 46rem; }
+.legal .meta { color: var(--muted); margin: 0 0 1.5rem; }
+.legal h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; font-weight: 500; color: var(--navy); margin: 1.75rem 0 0.5rem; }
+.legal p { margin: 0 0 1rem; }
+.legal ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+.legal li { margin: 0.35rem 0; }
