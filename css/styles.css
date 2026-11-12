@@ -1,4 +1,4 @@
-/* Doorway Partners — shared styles (draft rebuild)
+/* Doorway Partners — shared styles
    No web fonts, analytics or third-party requests: system + Georgia stacks only. */
 :root {
   --navy: #0f2744;
@@ -36,10 +36,9 @@ p { margin: 0 0 1rem; }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 44rem; }
 .eyebrow { font-family: var(--sans); text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: 600; color: var(--blue); margin: 0 0 .5rem; }
 
-/* Skip link + draft banner */
+/* Skip link */
 .skip-link { position: absolute; left: -999px; top: 0; background: var(--amber); color: var(--navy); padding: .6rem 1rem; z-index: 100; font-weight: 600; }
 .skip-link:focus { left: 1rem; top: 1rem; }
-.draft-banner { background: #fff4d6; color: #5a4300; border-bottom: 1px solid #e8d49a; font-size: .9rem; padding: .45rem 0; text-align: center; }
 
 /* Header */
 .site-header { background: var(--navy); color: var(--white); }
