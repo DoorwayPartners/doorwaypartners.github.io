@@ -6,7 +6,7 @@
   <title>Page Not Found | Doorway Partners</title>
   <meta name="description" content="The page you were looking for could not be found.">
   <link rel="canonical" href="https://doorwaypartners.com/">
-  <meta name="theme-color" content="#0f2744">
+  <meta name="theme-color" content="#0B192C">
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
@@ -29,17 +29,21 @@
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/index.html"><img src="/images/mark-light.svg" alt="" width="38" height="38"><span>Doorway Partners</span></a>
-      <nav class="site-nav" aria-label="Main">
+      <a class="brand" href="/index.html"><img src="/images/mark-light.svg" alt="" width="34" height="34"><span>Doorway Partners</span></a>
+      <input type="checkbox" id="nav-open" class="visually-hidden" tabindex="-1">
+      <nav id="site-nav" class="site-nav" aria-label="Main">
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/join/index.html">Join the Team</a></li>
           <li><a href="/providers/index.html">For Providers</a></li>
+          <li><a href="/services/index.html">Fiber Networks</a></li>
           <li><a href="/about/index.html">About</a></li>
           <li><a href="/contact/index.html">Contact</a></li>
-          <li><a href="https://ops.doorwaypartners.com/" rel="noopener">Rep Portal</a></li>
+          <li><a class="nav-portal" href="https://ops.doorwaypartners.com/" rel="noopener">Rep Portal</a></li>
         </ul>
       </nav>
+      <div class="nav-actions">
+        <a class="btn btn-primary btn-sm" href="/join/index.html">Join the Team</a>
+        <label class="nav-toggle" for="nav-open" aria-controls="site-nav" aria-expanded="false">Menu</label>
+      </div>
     </div>
   </header>
   <main id="main">
@@ -88,5 +92,6 @@
       </div>
     </div>
   </footer>
+  <script src="/js/nav.js"></script>
 </body>
 </html>

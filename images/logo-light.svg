@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 64" role="img" aria-label="Doorway Partners">
-  <path d="M14 58V29a18 18 0 0 1 36 0v29" fill="none" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
-  <path d="M21.5 58V30.5L37 35v21z" fill="#f2b544"/>
-  <path d="M8 58h48" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
-  <text x="70" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#ffffff" letter-spacing="0.5">Doorway Partners</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 48" role="img" aria-label="Doorway Partners">
+  <rect width="48" height="48" rx="11" fill="#13294B"/>
+  <path d="M14 12H25C31.6274 12 37 17.3726 37 24C37 30.6274 31.6274 36 25 36H14V12Z" stroke="#FFFFFF" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+  <path d="M14 20H24.5C26.7091 20 28.5 21.7909 28.5 24C28.5 26.2091 26.7091 28 24.5 28H14" stroke="#38BDF8" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <circle cx="24" cy="24" r="2.2" fill="#38BDF8"/>
+  <text x="60" y="32" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#ffffff">Doorway Partners</text>
 </svg>
